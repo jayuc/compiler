@@ -16,13 +16,13 @@ public interface IFileInfo {
 	FileChangeType getOpearType();
 	
 	/**
-	 * 文件类型
+	 * 文件类型 例如：js
 	 * @return
 	 */
 	String getFileType();
 	
 	/**
-	 * 文件名
+	 * 文件名 例如： test.js
 	 * @return
 	 */
 	String getFileName();

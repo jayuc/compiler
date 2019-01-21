@@ -13,6 +13,12 @@ public interface IFileProject {
 	 */
 	String getProjectName();
 	
+	/**
+	 * 项目绝对路径，
+	 * 例如(linux)：/home/jayu/codeRepository/compiler
+	 * 例如(window)：E:/codeRepository/compiler
+	 * @return
+	 */
 	String getProjectLocation();
 	
 }
