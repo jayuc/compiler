@@ -3,10 +3,10 @@ package com.github.jayuc.compiler.act;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import com.github.jayu.compiler.er.CompileException;
-import com.github.jayu.compiler.iter.ICompiler;
-import com.github.jayu.compiler.iter.IFileChangeInfo;
-import com.github.jayu.compiler.pojo.CompilerStatus;
+import com.github.jayuc.compiler.er.CompileException;
+import com.github.jayuc.compiler.iter.ICompiler;
+import com.github.jayuc.compiler.iter.IFileChangeInfo;
+import com.github.jayuc.compiler.pojo.CompilerStatus;
 
 /**
  * 抽象编译器
