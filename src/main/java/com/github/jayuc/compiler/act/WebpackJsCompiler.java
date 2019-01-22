@@ -1,7 +1,7 @@
-package com.github.jayu.compiler.act;
+package com.github.jayuc.compiler.act;
 
-import com.github.jayu.compiler.er.CompileException;
-import com.github.jayu.compiler.iter.IFileChangeInfo;
+import com.github.jayuc.compiler.er.CompileException;
+import com.github.jayuc.compiler.iter.IFileChangeInfo;
 
 /**
  * webpack 编译 js文件

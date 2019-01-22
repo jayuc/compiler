@@ -1,6 +1,6 @@
-package com.github.jayu.compiler.iter;
+package com.github.jayuc.compiler.iter;
 
-import com.github.jayu.compiler.pojo.FileChangeType;
+import com.github.jayuc.compiler.pojo.FileChangeType;
 
 /**
  * 文件属性

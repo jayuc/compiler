@@ -1,4 +1,4 @@
-package com.github.jayu.compiler.pojo;
+package com.github.jayuc.compiler.pojo;
 
 /**
  * 文件修改类型

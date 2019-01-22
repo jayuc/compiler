@@ -1,4 +1,4 @@
-package com.github.jayu.compiler.er;
+package com.github.jayuc.compiler.er;
 
 /**
  * 编译异常

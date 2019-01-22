@@ -1,4 +1,4 @@
-package com.github.jayu.compiler;
+package com.github.jayuc.compiler;
 
 /**
  * Hello world!

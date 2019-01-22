@@ -1,4 +1,4 @@
-package com.github.jayu.compiler.iter;
+package com.github.jayuc.compiler.iter;
 
 /**
  * webpack config interface
