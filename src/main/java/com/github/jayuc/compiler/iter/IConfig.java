@@ -1,17 +1,12 @@
 package com.github.jayuc.compiler.iter;
 
 /**
- * webpack config interface
+ * 编译所需配置
  * @author yujie
  *
  */
-public interface IWebpcakConfig {
+public interface IConfig {
 
-	/**
-	 * webpack.js 安装位置
-	 */
-	String getWebpackPrefix();
-	
 	/**
 	 * 需要编译项目根目录
 	 */
@@ -23,7 +18,7 @@ public interface IWebpcakConfig {
 	String getOutPath();
 	
 	/**
-	 * 需要编译的项目名
+	 * 需要编译的项目名（包含父项目）
 	 */
 	String getProjectName();
 	
@@ -31,11 +26,6 @@ public interface IWebpcakConfig {
 	 * 真实的项目名，不包含父项目
 	 */
 	String getRecentProjectName();
-	
-	/**
-	 * 输出文件在tomcat中的位置，不是真实的代码，是为了解决tomcat中的缓存问题
-	 */
-	String getWebFilePath();
 	
 	/**
 	 * 编译模式  开发环境(development)/生产环境(production),默认开发环境
