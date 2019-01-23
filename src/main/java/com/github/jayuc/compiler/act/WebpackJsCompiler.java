@@ -106,6 +106,7 @@ public class WebpackJsCompiler extends AbstractCompiler {
 				}
 			}
 		}else {
+			throw new CompileException("编译已完成，执行收尾任务失败");
 			//log.debug("srcPath:" + srcPath);
 			//log.debug("sourcePath:" + sourcePath);
 		}
