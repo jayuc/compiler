@@ -25,8 +25,7 @@ public class WebpackJsCompiler extends AbstractCompiler {
 	 * @param config
 	 */
 	public WebpackJsCompiler(IWebpackConfig config) {
-		super();
-		this.config = config;
+		init(config);
 	}
 
 	/**
