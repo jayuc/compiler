@@ -36,6 +36,5 @@
             </configuration>
 	  	 </plugin>
   	</plugins>
-  	<finalName>jayuc-compiler-${project.version}</finalName>
   </build>
 </project>
